@@ -7,6 +7,7 @@ provides-member:
 - ["10TextSorter0A4SortV", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "!="
 - "=="
 - !private "??"
 - "Argument"
@@ -58,12 +59,14 @@ depends-member:
 - !private ["Se", "Sorter"]
 - ["Se", ""]
 - ["Se", "_commandName"]
+- !private ["Se", "_sortedFilePath"]
 - !private ["Se", "_unsortedFilePath"]
 - ["Se", "configuration"]
 - ["Se", "init"]
 - ["Se", "main"]
 - !private ["Se", "print"]
 - ["Se", "run"]
+- !private ["Se", "sortedFilePath"]
 - !private ["Se", "unsortedFilePath"]
 - ["Se", "validate"]
 - ["Se", "wrappedValue"]
@@ -96,33 +99,39 @@ depends-member:
 - !private ["14ArgumentParser17ParsableArgumentsP", "Sorter"]
 - ["14ArgumentParser17ParsableArgumentsP", ""]
 - ["14ArgumentParser17ParsableArgumentsP", "_commandName"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "_sortedFilePath"]
 - !private ["14ArgumentParser17ParsableArgumentsP", "_unsortedFilePath"]
 - ["14ArgumentParser17ParsableArgumentsP", "configuration"]
 - ["14ArgumentParser17ParsableArgumentsP", "init"]
 - ["14ArgumentParser17ParsableArgumentsP", "main"]
 - !private ["14ArgumentParser17ParsableArgumentsP", "print"]
 - ["14ArgumentParser17ParsableArgumentsP", "run"]
+- !private ["14ArgumentParser17ParsableArgumentsP", "sortedFilePath"]
 - !private ["14ArgumentParser17ParsableArgumentsP", "unsortedFilePath"]
 - ["14ArgumentParser17ParsableArgumentsP", "validate"]
 - !private ["14ArgumentParser15ParsableCommandP", "Sorter"]
 - ["14ArgumentParser15ParsableCommandP", ""]
 - ["14ArgumentParser15ParsableCommandP", "_commandName"]
+- !private ["14ArgumentParser15ParsableCommandP", "_sortedFilePath"]
 - !private ["14ArgumentParser15ParsableCommandP", "_unsortedFilePath"]
 - ["14ArgumentParser15ParsableCommandP", "configuration"]
 - ["14ArgumentParser15ParsableCommandP", "init"]
 - ["14ArgumentParser15ParsableCommandP", "main"]
 - !private ["14ArgumentParser15ParsableCommandP", "print"]
 - ["14ArgumentParser15ParsableCommandP", "run"]
+- !private ["14ArgumentParser15ParsableCommandP", "sortedFilePath"]
 - !private ["14ArgumentParser15ParsableCommandP", "unsortedFilePath"]
 - ["14ArgumentParser15ParsableCommandP", "validate"]
 - ["14ArgumentParser13ParsedWrapperP", "init"]
 - ["14ArgumentParser13ParsedWrapperP", "wrappedValue"]
+- !private ["10TextSorter0B0V", "compare"]
 - !private ["10TextSorter0B0V", "init"]
 - !private ["10TextSorter0B0V", "sort"]
 - ["10TextSorter0A4SortV", "Argument"]
 - !private ["10TextSorter0A4SortV", "Sorter"]
 - ["10TextSorter0A4SortV", "String"]
 - ["10TextSorter0A4SortV", "_commandName"]
+- !private ["10TextSorter0A4SortV", "_sortedFilePath"]
 - !private ["10TextSorter0A4SortV", "_unsortedFilePath"]
 - ["10TextSorter0A4SortV", "configuration"]
 - ["10TextSorter0A4SortV", "deinit"]
@@ -130,6 +139,7 @@ depends-member:
 - ["10TextSorter0A4SortV", "main"]
 - !private ["10TextSorter0A4SortV", "print"]
 - ["10TextSorter0A4SortV", "run"]
+- ["10TextSorter0A4SortV", "sortedFilePath"]
 - ["10TextSorter0A4SortV", "unsortedFilePath"]
 - ["10TextSorter0A4SortV", "validate"]
 depends-nominal:
@@ -185,4 +195,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e5e52d982529528741f8b3772e3b6bd5"
+interface-hash: "0f39b550157b7e5a5ecab26fe0c581e9"

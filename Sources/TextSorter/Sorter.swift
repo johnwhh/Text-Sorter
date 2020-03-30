@@ -15,6 +15,29 @@ struct Sorter {
         return nil
     }
     
+    func compare(text: String, path: String) -> String? {
+        let firstLines = textToStringArray(text: text)
+        let contents = getFileContents(at: path)
+        
+        if contents == nil {
+            return nil
+        }
+        
+        let secondLines = textToStringArray(text: contents!)
+        
+        if firstLines.count != secondLines.count {
+            return "Test failed. The given file when sorted does not equal the sorted file."
+        }
+        
+        for i in 0..<firstLines.count {
+            if firstLines[i] != secondLines[i] {
+                return "Test failed. The given file when sorted does not equal the sorted file."
+            }
+        }
+        
+        return "Test successful. The given file when sorted equals the sorted file."
+    }
+    
     private func getFileContents(at path: String) -> String? {
         let url = URL(fileURLWithPath: path)
         

@@ -10,3 +10,8 @@ If you have Git installed, you can clone the repository by selecting the green *
 To run the application, navigate in the terminal to the downloaded or cloned folder that contains your working copy. Type the command `.build/debug/TextSorter` followed by the absolute path of the text file that contains the list of names to be sorted. Run the command and the appropriate output will be printed in the terminal.
 ### Example
 To sort a file called **"Sort Me.txt"**: `$ .build/debug/TextSorter /Users/username/Desktop/Sort\ Me.txt`
+## Tests
+### Steps
+Repeat the above steps but before running the command, add the absolute path of the sorted text file to compare against. Run the command and the test will either fail or succeed. Failure indicates that the unsorted text file after being sorted did not equal the given sorted file. Success indicates the opposite.
+### Example
+To sort a file called **"Sort Me.txt"** and test it against **"Sorted.txt"**: `$ .build/debug/TextSorter /Users/username/Desktop/Sort\ Me.txt /Users/username/Desktop/Sorted.txt`
