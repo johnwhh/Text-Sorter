@@ -12,6 +12,7 @@ depends-top-level:
 - !private "+="
 - !private "..<"
 - !private "<"
+- !private "=="
 - "AssignmentPrecedence"
 - !private "ExtendedGraphemeClusterType"
 - !private "FloatLiteralType"
@@ -213,6 +214,7 @@ depends-member:
 - !private ["s10SetAlgebraP", "whitespaces"]
 - ["10TextSorter0B0V", "String"]
 - !private ["10TextSorter0B0V", "URL"]
+- ["10TextSorter0B0V", "compare"]
 - !private ["10TextSorter0B0V", "getFileContents"]
 - ["10TextSorter0B0V", "init"]
 - !private ["10TextSorter0B0V", "print"]
@@ -385,4 +387,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "9f6282d4d7dc308e7add2b1dcbe60197"
+interface-hash: "0d6f2083e369739f8993a9cbecbdbce9"
