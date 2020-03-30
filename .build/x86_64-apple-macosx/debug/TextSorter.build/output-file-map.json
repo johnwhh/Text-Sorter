@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/johnholtzworth/School/CSC499/TextSorter/.build/x86_64-apple-macosx/debug/TextSorter.build/master.swiftdeps"
+  },
+  "/Users/johnholtzworth/School/CSC499/TextSorter/Sources/TextSorter/Sorter.swift": {
+    "dependencies": "/Users/johnholtzworth/School/CSC499/TextSorter/.build/x86_64-apple-macosx/debug/TextSorter.build/Sorter.d",
+    "object": "/Users/johnholtzworth/School/CSC499/TextSorter/.build/x86_64-apple-macosx/debug/TextSorter.build/Sorter.swift.o",
+    "swiftmodule": "/Users/johnholtzworth/School/CSC499/TextSorter/.build/x86_64-apple-macosx/debug/TextSorter.build/Sorter~partial.swiftmodule",
+    "swift-dependencies": "/Users/johnholtzworth/School/CSC499/TextSorter/.build/x86_64-apple-macosx/debug/TextSorter.build/Sorter.swiftdeps"
+  },
+  "/Users/johnholtzworth/School/CSC499/TextSorter/Sources/TextSorter/main.swift": {
+    "dependencies": "/Users/johnholtzworth/School/CSC499/TextSorter/.build/x86_64-apple-macosx/debug/TextSorter.build/main.d",
+    "object": "/Users/johnholtzworth/School/CSC499/TextSorter/.build/x86_64-apple-macosx/debug/TextSorter.build/main.swift.o",
+    "swiftmodule": "/Users/johnholtzworth/School/CSC499/TextSorter/.build/x86_64-apple-macosx/debug/TextSorter.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/johnholtzworth/School/CSC499/TextSorter/.build/x86_64-apple-macosx/debug/TextSorter.build/main.swiftdeps"
+  }
+}
