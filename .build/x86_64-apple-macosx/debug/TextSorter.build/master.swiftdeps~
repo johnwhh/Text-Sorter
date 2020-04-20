@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
-options: "87b3d11ff4841f1798274ebe131aab1e"
-build_time: [1585604937, 376867000]
-inputs:
-  "/Users/johnholtzworth/School/CSC499/TextSorter/Sources/TextSorter/Sorter.swift": [1585604930, 942487774]
-  "/Users/johnholtzworth/School/CSC499/TextSorter/Sources/TextSorter/main.swift": [1585604740, 957976929]

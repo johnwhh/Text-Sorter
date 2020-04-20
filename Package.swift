@@ -16,5 +16,8 @@ let package = Package(
         .target(
             name: "TextSorter",
             dependencies: [.product(name: "ArgumentParser", package: "swift-argument-parser")]),
+        .testTarget(
+            name: "TextSorterTests",
+            dependencies: ["TextSorter"]),
     ]
 )

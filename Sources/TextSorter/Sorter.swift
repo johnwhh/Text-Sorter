@@ -46,7 +46,7 @@ struct Sorter {
             text += line + "\n"
         }
         
-        return text
+        return text.trimmingCharacters(in: .whitespacesAndNewlines)
     }
 
     private func textToStringArray(text: String) -> [String] {
